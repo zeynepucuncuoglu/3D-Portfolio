@@ -23,6 +23,15 @@ import {
     jobit,
     tripguide,
     threejs,
+    python,
+    java,
+    swift,
+    microsoft,
+    netcad,
+    wtfiPoster,
+    linkedin,
+    discord,
+    github,
   } from "../assets";
   
   export const navLinks = [
@@ -42,11 +51,11 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "iOS  Developer",
       icon: mobile,
     },
     {
@@ -54,7 +63,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Full Stack Developer",
       icon: creator,
     },
   ];
@@ -101,72 +110,81 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
-      icon: git,
+      name: "python",
+      icon: python,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "java",
+      icon: java,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "swift",
+      icon: swift,
     },
+  ];
+
+  const socials = [
+    {
+      site: "LinkedIn",
+      icon: linkedin,
+      url: "https://www.linkedin.com/in/zeynepucuncuoglu/",
+    },
+    {
+      site: "GitHub",
+      icon: github,
+      url: "https://github.com/zeynepucuncuoglu",
+    },
+    {
+      site: "Discord",
+      icon: discord,
+      url: "https://discord.com/users/692078958845493349",
+    },
+  ]; 
+
+  const educations = [
+    {
+      school_name: "Bilkent University",
+      department: "Bachelors of Science in Information Systems and Technologies",
+      date: "2017-2023",
+    },
+    {
+      school_name: "Patika.dev",
+      department: "Getir iOS Bootcamp",
+      date: "Mar 2024 - Apr 2024"
+    }
+   
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Internship",
+      company_name: "Netcad Yazılım A.Ş",
+      icon: netcad,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Aug 2021 - Sept 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing a user-friendly autonomous system in order to schedule basic operations for machines while using JS, Html, Bootstrap and css.",
+        "Drawing a table and chart for scheduled operations while using chart.js",
+        "Creating a movie list application while using IMDB API",
+        "Developing a car selling application with Node JS, express Js, AJAX, and SQLite3.",
+        "Developing a quiz application while using Typescript.",
+        "Learned and practiced GIT.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Internship",
+      company_name: "Microsoft",
+      icon: microsoft,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Feb 2022 - Nov 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+         "Experienced in working with customers both onsite and online, including conducting meetings and delivering presentations to analyze customer profiles and needs.",
+         "Demonstrated the ability to work effectively in cross-functional teams and tackle challenges.",
+         "Skilled in utilizing Power Automate and Power Automate Desktop to automate daily time consuming tasks, such as streamlining recruiting processes and submitting employee health reports to SGK (Social Security Insurance).",
+         "Developed a D&I session app using Power Apps, allowing them to view and book sessions.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+   
   ];
   
   const testimonials = [
@@ -198,68 +216,30 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "What The Finance(WTFi)",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a web-based solution leveraging Machine Learning techniques to predict sectoral financial distress and potential bankruptcy using data from the Central Bank of Türkiye.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
+        },
+        {
+          name: "AWS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "python",
+          color: "pink-text-gradient",
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          color: "purple-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: wtfiPoster,
+      source_code_link: "https://github.com/WhatTheFinance",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, educations, experiences, testimonials, projects, socials };
