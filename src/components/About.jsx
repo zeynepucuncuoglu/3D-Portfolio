@@ -43,7 +43,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a dedicated software developer with expertise in Java, JavaScript, Swift, and Python, and experience in frameworks like React and Node.js. I excel at quickly learning new technologies and thrive in collaborative environments, working closely with clients to create efficient, scalable, and user-friendly solutions that address real-world problems. Let's work together to bring your ideas to life!
+        I'm a backend-focused software developer with a strong interest in distributed systems, DevOps, and SRE practices. I build production-grade microservices using Java and Spring Boot, design event-driven architectures with Kafka, and ship systems with full observability — metrics, structured logging, and distributed tracing. I'm comfortable across the stack from API design and domain modeling to containerization, Kubernetes deployments, and CI/CD pipelines. I care about reliability, maintainability, and building systems that are easy to operate at scale.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

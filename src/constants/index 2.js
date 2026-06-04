@@ -29,9 +29,6 @@ import {
     microsoft,
     netcad,
     wtfiPoster,
-    demanforecastplatform,
-    flowops,
-    pulsewatch,
     linkedin,
     discord,
     github,
@@ -58,8 +55,8 @@ import {
       icon: web,
     },
     {
-      title: "DevOps Engineer",
-      icon: backend,
+      title: "iOS  Developer",
+      icon: mobile,
     },
     {
       title: "Backend Developer",
@@ -150,31 +147,41 @@ import {
       department: "Bachelors of Science in Information Systems and Technologies",
       date: "2017-2023",
     },
+    {
+      school_name: "Patika.dev",
+      department: "Getir iOS Bootcamp",
+      date: "Mar 2024 - Apr 2024"
+    }
+   
   ];
   
   const experiences = [
     {
-      title: "Intern, Web Developer",
+      title: "Internship",
       company_name: "Netcad Yazılım A.Ş",
       icon: netcad,
       iconBg: "#383E56",
-      date: "Aug 2021 - Sep 2021",
+      date: "Aug 2021 - Sept 2021",
       points: [
-        "Built user-friendly systems and apps using JavaScript, Node.js, and SQLite3.",
-        "Gained practical experience with Git and modern web development frameworks.",
+        "Developing a user-friendly autonomous system in order to schedule basic operations for machines while using JS, Html, Bootstrap and css.",
+        "Drawing a table and chart for scheduled operations while using chart.js",
+        "Creating a movie list application while using IMDB API",
+        "Developing a car selling application with Node JS, express Js, AJAX, and SQLite3.",
+        "Developing a quiz application while using Typescript.",
+        "Learned and practiced GIT.",
       ],
     },
     {
-      title: "Customer Success Intern → Associate (Part-time)",
-      company_name: "Microsoft Turkey",
+      title: "Internship",
+      company_name: "Microsoft",
       icon: microsoft,
       iconBg: "#E6DEDD",
       date: "Feb 2022 - Nov 2022",
       points: [
-        "Delivered Power Platform solutions to support enterprise digital transformation initiatives.",
-        "Automated business workflows using Power Automate and Power Automate Desktop, reducing manual processes.",
-        "Developed a Power Apps-based D&I session platform for booking and management.",
-        "Conducted customer meetings and presentations to analyze requirements and propose solutions.",
+         "Experienced in working with customers both onsite and online, including conducting meetings and delivering presentations to analyze customer profiles and needs.",
+         "Demonstrated the ability to work effectively in cross-functional teams and tackle challenges.",
+         "Skilled in utilizing Power Automate and Power Automate Desktop to automate daily time consuming tasks, such as streamlining recruiting processes and submitting employee health reports to SGK (Social Security Insurance).",
+         "Developed a D&I session app using Power Apps, allowing them to view and book sessions.",
       ],
     },
    
@@ -208,81 +215,6 @@ import {
   ];
   
   const projects = [
-    {
-      name: "Demand Forecast Platform",
-      description:
-        "Microservices platform for real-time inventory tracking, order management, and ML-powered demand forecasting — event-driven architecture with Kafka, JWT auth, circuit breaking, and automated alerting.",
-      tags: [
-        {
-          name: "Java/Spring Boot",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Apache Kafka",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Python/FastAPI",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Docker",
-          color: "purple-text-gradient",
-        },
-      ],
-      image: demanforecastplatform,
-      source_code_link: "https://github.com/zeynepucuncuoglu/inventoryprj",
-    },
-    {
-      name: "FlowOps",
-      description:
-        "PEGA-style telecom case management system with skill-based routing engine, rule-driven workflow transitions, full observability stack (Prometheus, Grafana, ELK, Jaeger), and Kubernetes deployment with HPA.",
-      tags: [
-        {
-          name: "Java/Spring Boot",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Kubernetes",
-          color: "green-text-gradient",
-        },
-        {
-          name: "PostgreSQL",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "Prometheus/Grafana",
-          color: "purple-text-gradient",
-        },
-      ],
-      image: flowops,
-      source_code_link: "https://github.com/zeynepucuncuoglu/flowOps",
-    },
-    {
-      name: "PulseWatch",
-      description:
-        "Python CLI for real-time microservice log analysis — error fingerprinting via token normalization, Z-score anomaly detection over rolling windows, heuristic root-cause rules, and automated Slack/PagerDuty alerting.",
-      tags: [
-        {
-          name: "Python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Click/Rich",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Z-score Analysis",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "PagerDuty/Slack",
-          color: "purple-text-gradient",
-        },
-      ],
-      image: pulsewatch,
-      source_code_link: "https://github.com/zeynepucuncuoglu/PulseWatch",
-    },
     {
       name: "What The Finance(WTFi)",
       description:

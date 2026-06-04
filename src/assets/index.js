@@ -40,6 +40,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import wtfiPoster from "./wtfiPoster.jpeg";
+import demanforecastplatform from "./demanforecastplatform.png";
+import flowops from "./flowops.png";
+import pulsewatch from "./pulsewatch.png";
 
 
 export {
@@ -77,6 +80,9 @@ export {
   microsoft,
   netcad,
   wtfiPoster,
+  demanforecastplatform,
+  flowops,
+  pulsewatch,
   linkedin,
   discord,
 };
