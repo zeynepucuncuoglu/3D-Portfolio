@@ -120,10 +120,6 @@ import {
       name: "java",
       icon: java,
     },
-    {
-      name: "swift",
-      icon: swift,
-    },
   ];
 
   const socials = [
